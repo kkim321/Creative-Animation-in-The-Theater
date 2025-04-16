@@ -1,0 +1,16 @@
+Media Citations:
+"Ballerina and music box image" found at https://www.shutterstock.com/shutterstock/photos/2561402891/display_1500/stock-vector-music-box-with-ballerina-pink-and-green-2561402891.jpg 
+"Music Notes iamge" found at https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW82L6wPHpOa-_Kf0DJ7HpJl7lv8bEE6766w&s 
+"Ballerina sound effects" found at https://pixabay.com/music/modern-classical-plastic-ballerina-piano-instrumental-203341/ 
+
+AI Citations:
+Used ChatGPT to explain how to extend a superclass and helped me think through 
+which methods should be in my subclasses
+It told me to move the shared positon and image into a Performer superclass 
+and let the subclasses override specific behaviors like spin() and move()
+Used ChatGP to help debug on preventing overlapping sound playback
+I adjusted the code so that playSound() is only called once and 
+prevents it from restarting every frame
+Used ChatGPT to help with ideas for how to use a 1D array to manage music note animations
+I had to create a 1D array to store multiple x-positions of music notes,
+used a loop to move them, and applied an if condition to reset their positions
